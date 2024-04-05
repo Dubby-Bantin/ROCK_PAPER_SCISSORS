@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    color:blueviolet;
+}
+
+h1{
+    text-align: center;
+}
+
+.rock-css img, .paper-css img , .scissors-css img{
+    height: 50px;
+}
+
+.js-moves img{
+    height: 50px;
+}
+
+.rock-css, .paper-css, .scissors-css{
+    background-color: transparent;
+    border: 3px solid blue;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.score{
+    margin-top: 60px;
+}
+
+.resetscorebutton,.auto-play-button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
+.resetscorebutton:hover,.auto-play-button:hover{
+    background-color: rgb(88, 5, 166);
+}
